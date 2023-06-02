@@ -1,0 +1,5 @@
+load_file("nrngui.hoc")
+xopen("fast_muscle.hoc")
+xopen("Xm.hoc")
+xopen("Istim.hoc")
+xopen("figure.ses")

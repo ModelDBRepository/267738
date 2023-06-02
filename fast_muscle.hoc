@@ -1,0 +1,22 @@
+// Simulation parameters
+	tstop = 3000         
+	dt = 0.0020833       
+	v_init = -70
+
+// Section
+create fast_muscle          
+
+fast_muscle {
+	// Geometry	
+	L = 10
+	diam = 10
+
+    // Cable property
+	insert pas
+	g_pas = 2*10^-3
+    cm = 20
+	
+	// Calcium dynamics and crossbridge mechanics
+	insert CaSP
+	insert fHill
+}
